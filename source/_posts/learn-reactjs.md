@@ -1,4 +1,7 @@
-# 学习ReactJS
+---
+title: 学习ReactJS
+---
+
 这是我的第一个ReactJS项目，之前都是使用Angular+Ionic架构。
 [ReactJS][1]是我想尝试的一种不同于传统的框架。
 [ReactJS][1]配合[Webpack][2]。
@@ -12,11 +15,29 @@ npm install -g babel
 yo reactjs
 npm install --save gulp-sass
 ```
+
 > generator-reactjs是一个相对轻量级的项目结构。
 > 由于generator-reactjs本身支持less，所以我引入gulp-sass模块来支持sass功能。
 > [babel][5]是ES6转换成ES5的利器。
 
+```javascript
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import App from './App'
+import router from './router'
 
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  template: '<App/>',
+  components: { App }
+})
+
+```
 
 
 [1]:http://facebook.github.io/react/docs/getting-started.html
