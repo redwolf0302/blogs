@@ -1,5 +1,6 @@
 ---
 title: 学习ReactJS
+date: 2015-09-10
 ---
 
 这是我的第一个ReactJS项目，之前都是使用Angular+Ionic架构。
@@ -15,6 +16,8 @@ npm install -g babel
 yo reactjs
 npm install --save gulp-sass
 ```
+
+![dom-tree.png](dom-tree.png)
 
 > generator-reactjs是一个相对轻量级的项目结构。
 > 由于generator-reactjs本身支持less，所以我引入gulp-sass模块来支持sass功能。
